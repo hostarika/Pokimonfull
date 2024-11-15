@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <img src="./gif-poke.gif.png" alt="pokemon img" class="logo">
+        <div class="input">
+            <input type="search" placeholder="Search your pokemon" id="qidiruv">
+            <div class="md" id="md">
+                <select name="all" id="select-type">
+                    <option value="All">All</option>
+                    <option value="Bug">Bug</option>
+                    <option value="Dark">Dark</option>
+                    <option value="Dragon">Dragon</option>
+                    <option value="Electric">Electric</option>
+                    <option value="Fairy">Fairy</option>
+                    <option value="Fighting">Fighting</option>
+                    <option value="Fire">Fire</option>
+                    <option value="Flying">Flying</option>
+                    <option value="Ghost">Ghost</option>
+                    <option value="Grass">Grass</option>
+                    <option value="Ground">Ground</option>
+                    <option value="Ice">Ice</option>
+                    <option value="Poison">Poison</option>
+                    <option value="Psychic">Psychic</option>
+                </select>
+            </div>
+
+            <select name="" id="sort">
+                <option value="A-Z">A-Z</option>
+                <option value="Z-A">Z-A</option>
+            </select>
+
+            <button id="btn" >Search</button>
+        </div>
+        <div id="box">
+            <div class="pokimon">
+                <h2>Bulbasaur</h2>
+                <img src="http://www.serebii.net/pokemongo/pokemon/001.png" alt="pokemon-1">
+                <button class="btn2">Grass Poison</button>
+                <h2>Candy count: 25</h2>
+                <h3>6.9 kg</h3>
+                <h3>Fire Ice Flying Psychic</h3>
+                <h4 class="clock">20:00</h4>
+                <h4 class="id">001</h4>
+            </div>
+        </div>
+    </div>
+
+
+   
+    <script type="module" src="./pokemons.js" ></script>
+    <script type="module" src="./script.js" ></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background-color: #212529;
+}
+.logo{
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+input{
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    
+}
+#btn{
+    padding: 11px 45px;
+    background-color: green;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+#box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+select{
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+.pokimon h2 {
+    font-size: 26px;
+    margin: 10px 0;
+}
+
+.pokimon h3 {
+    font-size: 21px;
+    margin: 10px 0;
+    color: blue;
+}
+
+.btn2 {
+    padding: 20px 50px;
+    border-radius: 50px;
+    background: #c4e4ff;
+    border: none;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+.clock {
+    background: #00ffff;
+    padding: 10px 8px;
+    font-size: 20px;
+    width: 70px;
+    height: 39px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.id {
+    background: red;
+    padding: 10px 8px;
+    font-size: 20px;
+    width: 50px;
+    height: 39px;
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+}
+.pokimon {
+    width: 250px;
+    padding: 40px 20px;
+    text-align: center;
+    background: #ffff00;
+    box-shadow: 0px -2px 6px 0px #0a254599 inset;
+    box-shadow: 0px 50px 100px -20px #00000044, 0px 10px 20px -20px #33225408;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
